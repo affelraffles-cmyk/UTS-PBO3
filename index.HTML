@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <section id="cover" class="cover-section d-flex align-items-center justify-content-center text-center text-white">
+        <div class="cover-content p-4 rounded-4 blur-bg">
+            <h4 class="mb-3 font-poppins">The Wedding Of</h4>
+            <h1 class="display-3 font-playfair mb-4">Romeo & Juliet</h1>
+            <p class="font-poppins mb-1">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+            <h3 id="guest-name" class="fw-bold mb-4 font-playfair">Tamu Undangan</h3>
+            <button class="btn btn-sage rounded-pill px-4 py-2 font-poppins" onclick="bukaUndangan()">Buka Undangan</button>
+        </div>
+    </section>
+
+   
+    <div id="undangan-content" style="display: none;">
+        
+        
+        <section class="py-5 bg-cream text-center">
+            <div class="container">
+                <h2 class="font-playfair text-sage mb-5">Om Swastiastu</h2>
+                <p class="font-poppins text-muted mb-5">Dengan memohon rahmat dan ridho Tuhan Yang Maha Esa, kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-5 mb-4">
+                        <h3 class="font-playfair text-sage">Romeo Montague</h3>
+                        <p class="font-poppins text-muted">Putra dari Bapak Fulan & Ibu Fulanah</p>
+                    </div>
+                    <div class="col-md-2 mb-4">
+                        <h1 class="font-playfair text-gold">&</h1>
+                    </div>
+                    <div class="col-md-5 mb-4">
+                        <h3 class="font-playfair text-sage">Juliet Capulet</h3>
+                        <p class="font-poppins text-muted">Putri dari Bapak Fulan & Ibu Fulanah</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        <section class="py-5 bg-sage text-white text-center">
+            <div class="container">
+                <h2 class="font-playfair mb-4">Waktu & Tempat</h2>
+                <div class="card bg-cream text-dark mx-auto mb-4" style="max-width: 500px;">
+                    <div class="card-body p-4">
+                        <h4 class="font-playfair text-sage border-bottom pb-2">Resepsi Pernikahan</h4>
+                        <p class="font-poppins mt-3 mb-1"><strong>Minggu, 12 Desember 2026</strong></p>
+                        <p class="font-poppins mb-3">10.00 WIB - Selesai</p>
+                        <p class="font-poppins text-muted small mb-0">Gedung Serbaguna ABC<br>Jl. Kenangan Indah No. 123, Kota Bahagia</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center gap-3 font-poppins mt-5">
+                    <div class="timer-box bg-white text-sage rounded p-3">
+                        <h3 id="hari" class="mb-0 fw-bold">00</h3>
+                        <small>Hari</small>
+                    </div>
+                    <div class="timer-box bg-white text-sage rounded p-3">
+                        <h3 id="jam" class="mb-0 fw-bold">00</h3>
+                        <small>Jam</small>
+                    </div>
+                    <div class="timer-box bg-white text-sage rounded p-3">
+                        <h3 id="menit" class="mb-0 fw-bold">00</h3>
+                        <small>Menit</small>
+                    </div>
+                    <div class="timer-box bg-white text-sage rounded p-3">
+                        <h3 id="detik" class="mb-0 fw-bold">00</h3>
+                        <small>Detik</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        <footer class="bg-sage text-white text-center py-4 font-poppins border-top">
+            <p class="mb-0">Merupakan suatu kehormatan bagi kami atas kehadiran Bapak/Ibu.</p>
+            <small class="mt-2 d-block">© 2026 UTS Web Programming - [Nama Anda]</small>
+        </footer>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="script.js"></script>
+</body>
+</html>

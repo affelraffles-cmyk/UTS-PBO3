@@ -1,0 +1,49 @@
+
+:root {
+    --sage: #7A9D8C;
+    --sage-dark: #5A776A;
+    --cream: #F9F6F0;
+    --gold: #C5A880;
+}
+
+.font-playfair { font-family: 'Playfair Display', serif; }
+.font-poppins { font-family: 'Poppins', sans-serif; }
+
+/* --- Utility Classes --- */
+.bg-sage { background-color: var(--sage) !important; }
+.text-sage { color: var(--sage) !important; }
+.bg-cream { background-color: var(--cream) !important; }
+.text-gold { color: var(--gold) !important; }
+
+.btn-sage {
+    background-color: var(--sage);
+    color: white;
+    border: none;
+}
+.btn-sage:hover {
+    background-color: var(--sage-dark);
+    color: white;
+}
+
+
+.cover-section {
+    height: 100vh;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('[https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80](https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)') center/cover no-repeat fixed;
+}
+
+.blur-bg {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.timer-box {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
